@@ -9,7 +9,7 @@
 }*/
 
 .header {
-  display: grid;
+  /*display: grid;
   align-content: space-between;
   /*row-gap: var(--header-min-rowgap);*/
   padding: var(--main-inline-padding);
