@@ -11,7 +11,7 @@
   --title-color: #FFC2E6;
   --subtitles-color: #353430;
   --color-for-corner-logo: transparent;
-  --background-image-url: url(../images/cover-image-light.png); 
+  --background-image-url: url(../images/cover-image-light.png);
 }
 
 .theme-light .page {
@@ -26,6 +26,6 @@
     --title-color: #FFC2E6;
     --subtitles-color: #353430;
     --color-for-corner-logo: transparent;
-    --background-image-url: url(../images/cover-image-light.png);  
+    --background-image-url: url(../images/cover-image-light.png);
   }
 }

@@ -16,10 +16,6 @@
   height: 100vh;
 }
 
-.decorated-zone {
-
-}
-
 .header__rec {
   display: flex;
   gap: 4px;
@@ -68,10 +64,6 @@
   gap: 10px;
 }
 
-.header__theme-menu-item {
-  
-}
-
 .header__theme-menu-button {
   width: 70px;
   max-height: 26px;
@@ -89,18 +81,6 @@
 .header__theme-menu-button:hover {
   border: 1px solid color(from var(--accent-color) xyz x y z / 40%);
   cursor: pointer;
-}
-
-.header__theme-menu-button_type_light {
-
-}
-
-.header__theme-menu-button_type_auto {
-
-}
-
-.header__theme-menu-button_type_dark {
-
 }
 
 .header__theme-menu-button_active {
@@ -267,10 +247,6 @@ footer {
   .main__gallery-item-tape {
     grid-column: 1;
     grid-row: 3 / 5;
-  }
-
-  .main__gallery-item-books {
-    
   }
 
   .main__gallery-item-street {
