@@ -194,6 +194,7 @@ footer {
 
   .header__theme-title {
     grid-column: span 2;
+    margin-inline-start: calc(-1*var(--main-inline-padding));
   }
 
   .header__title-decor {
