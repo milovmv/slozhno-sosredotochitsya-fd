@@ -272,6 +272,7 @@ footer {
     --header-first-element-margin-bottom:184px;
     --header-second-element-margin-bottom: 25px;
     --header-third-element-margin-bottom: 0;
+    --main-grid-layout: 1fr 1fr 1fr;
   }
 
   .header__theme-menu {
