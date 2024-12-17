@@ -152,7 +152,7 @@ main {
 
 .main__section-gallery {
   display: grid;
-  grid-template-columns: var(--main-grid-layout);
+  grid-template-columns: var(--main-grid-gallery-layout);
   gap: var(--main-inside-section-gallery-rowgap);
 }
 
@@ -188,7 +188,8 @@ footer {
     --header-second-element-margin-bottom: 24px;
     --header-third-element-margin-bottom: 0;
     --title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    --main-grid-layout: 1fr 1fr 1fr;
+    --main-grid-layout: 236px 1fr 1fr;
+    --main-grid-gallery-layout: 1fr 1fr 1fr;
     --main-rowgap: 80px;
     --main-inside-section-gallery-rowgap: 20px;
   }

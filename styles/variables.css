@@ -23,4 +23,5 @@
   --background-image-url: url(../images/cover-image-dark.png);
   --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --main-grid-layout: 1fr;
+  --main-grid-gallery-layout: 1fr;
 }
