@@ -1,12 +1,12 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
-.page {
+/*.page {
   background-image: var(--background-image-url);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
+}*/
 
 .header {
   display: grid;
