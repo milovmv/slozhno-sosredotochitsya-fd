@@ -118,7 +118,6 @@ main {
   gap: var(--main-rowgap);
   padding-inline: var(--main-inline-padding);
   margin-block-end: var(--margin-between-sections);
-  
 }
 
 .main__section {
@@ -182,6 +181,7 @@ footer {
     --header-third-element-margin-bottom: 0;
     --title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     --main-grid-layout: 1fr 1fr 1fr;
+    --main-rowgap: 80px;
   }
 
   .header {
