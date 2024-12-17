@@ -178,7 +178,7 @@ footer {
   justify-self: center;
 }
 
-@media (width >= 768px) {
+@media (width >= 767px) {
   :root {
     --main-inline-padding: 20px;
     --margin-between-sections: 60px;
