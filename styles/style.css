@@ -15,6 +15,7 @@
   padding: var(--main-inline-padding);
   margin-block-end: var(--margin-between-sections);
   min-height: max(668px, 100vh);
+  position: relative;
 }
 
 .decorated-zone::before {
@@ -59,8 +60,8 @@
 .header__theme-menu {
   justify-self: end;
   color: var(--accent-color);
-  margin-block-start: var(--header-first-element-margin-top);
-  margin-block-end: var(--header-first-element-margin-bottom);
+  margin-block-start: var(--header-nav-menu-margin-top);
+  margin-block-end: var(--header-nav-menu-margin-top-bottom);
   grid-row: 1;
   grid-column: 1;
 }
@@ -76,6 +77,7 @@
   max-height: 26px;
   background-color: transparent;
   border: none;
+  border-block-end: 1px solid transparent;
   height: 26px;
   padding: 0;
 }
@@ -101,7 +103,7 @@
   text-shadow: 4px 4px 0 var(--background-color);
   line-height: 82.5%;
   font-weight: bold;
-  margin-block-end: var(--header-second-element-margin-bottom);
+  margin-block-end: var(--header-title-margin-bottom);
 }
 
 .title-decor {
@@ -113,7 +115,7 @@
 }
 
 .header__title-decor {
-  margin-block-end: var(--header-third-element-margin-bottom);
+  margin-block-end: var(--header-infotext-margin-bottom);
 }
 
 .subtitle {

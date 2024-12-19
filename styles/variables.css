@@ -16,10 +16,10 @@
   --main-rowgap: 50px;
   --main-inside-section-rowgap: 20px;
   --main-inside-section-gallery-rowgap: 10px;
-  --header-first-element-margin-top: 65px;
-  --header-first-element-margin-bottom: 35px;
-  --header-second-element-margin-bottom: 25px;
-  --header-third-element-margin-bottom: 0;
+  --header-nav-menu-margin-top: 65px;
+  --header-nav-menu-margin-bottom: 35px;
+  --header-title-margin-bottom: 25px;
+  --header-infotext-margin-bottom: 0;
   --background-image-url: url(../images/cover-image-dark.png);
   --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --main-grid-layout: 1fr;
@@ -31,10 +31,10 @@
     --main-inline-padding: 20px;
     --margin-between-sections: 60px;
     --header-min-rowgap: 138px;
-    --header-first-element-margin-top: 172px;
-    --header-first-element-margin-bottom: 35px;
-    --header-second-element-margin-bottom: 24px;
-    --header-third-element-margin-bottom: 0;
+    --header-nav-menu-margin-top: 172px;
+    --header-nav-menu-margin-bottom: 35px;
+    --header-title-margin-bottom: 24px;
+    --header-infotext-margin-bottom: 0;
     --title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     --main-grid-layout: 236px 1fr 1fr;
     --main-grid-gallery-layout: 1fr 1fr 1fr;
@@ -46,10 +46,10 @@
 @media (width >= 1024px) {
   :root {
     --header-min-rowgap: 89px;
-    --header-first-element-margin-top: 0;
-    --header-first-element-margin-bottom:184px;
-    --header-second-element-margin-bottom: 25px;
-    --header-third-element-margin-bottom: 0;
+    --header-nav-menu-margin-top: 0;
+    --header-nav-menu-margin-bottom:184px;
+    --header-title-margin-bottom: 25px;
+    --header-infotext-margin-bottom: 0;
     --main-grid-layout: 1fr 1fr 1fr;
   }
 }
